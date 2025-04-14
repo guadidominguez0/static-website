@@ -8,7 +8,7 @@ body {
 }
 
 header {
-	background-image: url(assets/banner-bg.jpg);
+	background-image: url(assets/banner1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -103,14 +103,14 @@ h1 {
 }
 
 .service {
-	background-image: url(assets/img-banner@2x.png);
+	background-image: url(assets/torno.png);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
 .about {
-	background-image: url(assets/DSC_0036.JPG);
+	background-image: url(assets/fresa.jpeg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -125,14 +125,14 @@ h1 {
 }
 
 .contact {
-	background-image: url(assets/img-contact-form-bg.jpg);
+	background-image: url(assets/taladro.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
 .faq {
-	background-image: url(assets/img-prop-type@2x.jpg);
+	background-image: url(assets/industrial.jpeg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -145,7 +145,7 @@ h1 {
 }
 
 .contact-section-header {
-	color: #282828;
+	color: orange;
 	font-family: "Roboto", sans-serif;
 	font-size: 25px;
 	margin-bottom: 20px;
@@ -164,7 +164,7 @@ h1 {
 }
 
 .form input.button {
-    background-color: #4CAF50; /* Green */
+    background-color: orange; 
     border: none;
     color: white;
     width: 71%;
@@ -192,10 +192,6 @@ input[type=number]::-webkit-inner-spin-button,
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
   	.blog {
-    	background-image: url(assets/banner-texture@2x.png) !important;
-  	}
-
-  	.faq {
-    	background-image: url(assets/img-prop-type@2x.jpg) !important;
+    	background-image: url(assets/banner-texture.png) !important;
   	}
 }
